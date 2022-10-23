@@ -7,25 +7,28 @@ import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import ChatIcon from '@material-ui/icons/Chat';
 import NotificationsIcon from '@material-ui/icons/Notifications';
+
 function Header() {
   return (
     <div className="header">
-            <div className="header__left">
+        <div className="header__left">
                 <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
                     alt="" />
                 <div className="header__search">
                     <SearchIcon />
                     <input placeholder="Search" type="text" />
                 </div>
-            </div>
-            <div className="header__right">
+        </div>
+        <div className="header__right">
                 <HeaderOption Icon={HomeIcon} title="Home" />
                 <HeaderOption Icon={SupervisorAccountIcon} title="My Network" />
                 <HeaderOption Icon={BusinessCenterIcon} title="Jobs" />
                 <HeaderOption Icon={ChatIcon} title="Messaging" />
                 <HeaderOption Icon={NotificationsIcon} title="Notifications" />
+                <HeaderOption avatar ="https://media-exp1.licdn.com/dms/image/D4D03AQE64dLdiq4WVg/profile-displayphoto-shrink_200_200/0/1666214859391?e=1671667200&v=beta&t=8CWwst2YyNWb4meudikGIbQYMXKNiB_L5ALuhCUw5Bo" title="me" />
         </div>
     </div>
+
   )
 }
 

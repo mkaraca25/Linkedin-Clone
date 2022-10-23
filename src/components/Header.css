@@ -6,9 +6,10 @@
     justify-content: space-evenly;
     border-bottom: 0.1px lightgray solid;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     width: 100%;
-    z-index: 999;
+    z-index: 999;height: 50px;
+    
   }
   .header__left {
     display: flex;
@@ -26,12 +27,21 @@
     height: 22px;
     color: gray;
     background-color: #eef3f8;
+    transition: transform 0.3s ease;
   }
   .header__search > input {
     outline: none;
     border: none;
     background: none;
   }
+  .header__search:hover{
+    transform: translateX(10px);
+    border: 1.5px solid black;
+    margin-right: 50px;
+    width: 250px;
+    height: 15px;
+  }
   .header__right {
     display: flex;
+    line-height: 0px;
   }
