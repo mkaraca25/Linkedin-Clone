@@ -1,6 +1,6 @@
 .header {
     position: sticky;
-    top: 0;
+    top: 0px;
     display: flex;
     background-color: white;
     justify-content: space-evenly;
@@ -44,4 +44,11 @@
   .header__right {
     display: flex;
     line-height: 0px;
+    height: 52px;
+    
+  }
+  .avatar{
+    width: 50px;
+    margin-right: 15px;
+    border-right: 1.5px solid lightgray;
   }
