@@ -1,12 +1,13 @@
 .sidebar {
     position: sticky;
     top: 80px;
-    flex: 0.2;
+    flex: 0.25;
     border-radius: 10px;
     text-align: center;
     height: fit-content;
-    width: 950px;
+    width: 970px;
     line-height: 0px;
+    margin-left: 300px;
 }
 
 .sidebar__avatar {
@@ -61,7 +62,7 @@
    font-size: 13px;
    font-weight: 600; 
 }
-.sidebar_statNumber {
+.sidebar__statNumber {
     font-weight: bold;
     color: #0a66c2 !important;
 }
@@ -78,10 +79,11 @@
 .sidebar__bottom > p {
     font-size: 13px;
     padding-bottom: 10px;
+
 }
 
 .sidebar__recentItem {
-    display: flex;
+    display:flex;
     font-size: 13px;
     color: gray;
     font-weight: bolder;

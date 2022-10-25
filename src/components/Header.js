@@ -27,7 +27,10 @@ function Header() {
                 <HeaderOption Icon={ChatIcon} title="Messaging" />
                 <HeaderOption Icon={NotificationsIcon} title="Notifications" />
                 <div className='avatar'><HeaderOption avatar ="https://media-exp1.licdn.com/dms/image/D4D03AQE64dLdiq4WVg/profile-displayphoto-shrink_200_200/0/1666214859391?e=1671667200&v=beta&t=8CWwst2YyNWb4meudikGIbQYMXKNiB_L5ALuhCUw5Bo" title="me" /></div>
-                <HeaderOption Icon={AppsIcon} title="Job"/>
+                <div className='borderRight'><HeaderOption  Icon={AppsIcon} title="Job"/></div>
+        </div>
+        <div className='headerRight__right'>
+        <HeaderOption Icon={AppsIcon} title="post free job"/>
         </div>
     </div>
 

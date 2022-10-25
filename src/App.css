@@ -5,6 +5,10 @@
   align-items: center;
 }
 .app_body{
-  display:flex ;
+  display:flex;
+  gap: 30px;
+  margin-left: 120px;
+  margin-top: 20px;
+  
 }
 
